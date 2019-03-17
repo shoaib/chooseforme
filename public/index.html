@@ -13,6 +13,11 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet"href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,7 +27,64 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <style>
+      .ui.large.header {
+          padding: 2em;
+      }
+
+      button.ui.button.deleteButton {
+          background: transparent;
+      }
+
+      body {
+        background: #F6F7F8;
+        color: rgba(0,0,0,.50);
+      }
+
+      .ui.large.header {
+          color: #023D6A;
+      }
+
+      .ui.menu {
+        background: #06518B;
+        border-radius: 0px;
+      }
+
+      h1{
+        color: #F6F7F8;
+      }
+
+      * {
+        font-family: 'Montserrat', sans-serif !important;
+
+      }
+
+      .ui.menu .item:before {
+        background: #06518B;
+      }
+
+      button.ui.secondary.button {
+        background: #023D6A;
+      }
+
+      .container {
+        padding-bottom: 3em;
+      }
+
+      button.ui.secondary.button:hover {
+        background: #06518B;
+      }
+
+      .mainDiv {
+        padding-bottom: 20px;
+      }
+
+      .ui.large.segment {
+        background: #F6F7F8;
+      }
+
+    </style>
+    <title>Choose For Me</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
