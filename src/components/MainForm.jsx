@@ -105,7 +105,7 @@ class MainForm extends Component {
 
         return (
 
-        <div className="mainDiv"> 
+        <div className="aw"> 
 
         <Header size='large'>Enter all the choices and come to a random conclusion!</Header>
 
